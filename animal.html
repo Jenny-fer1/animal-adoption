@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animal Adoption Form</title>
+  <link rel="stylesheet" href="animal.css"> 
+</head>
+<body>
+
+  <div class="container">
+    <h1>Animal Adoption Form</h1>
+
+    <form>
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="animal">Choose an Animal:</label><br>
+      <select id="animal" name="animal" required>
+        <option value="aku">Aku</option>
+        <option value="ayo">Ayo</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="rabbit">Rabbit</option>
+        <option value="bird">Bird</option>
+        <option value="lion">Lion</option>
+      </select><br><br>
+
+      <label for="reason">Why do you want to adopt?</label><br>
+      <textarea id="reason" name="reason" rows="5" cols="40" required></textarea><br><br>
+
+      <button type="submit">Adopt Now!</button>
+    </form>
+
+  </div>
+
+</body>
+</html>
